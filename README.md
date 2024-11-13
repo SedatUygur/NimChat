@@ -7,6 +7,7 @@ To compile run:
 nim c src/client
 nim c src/server
 ```
+If you encounter the error like Error: Threadpool requires --threads:on option, you can run client with this command. ``` nim c --threads:on src/client ```
 
 You can then run the ``server`` in one terminal by executing ``./src/server``.
 
